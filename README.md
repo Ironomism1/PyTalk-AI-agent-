@@ -1,6 +1,6 @@
 <div align="center">
 
-# PyTalk – Futuristic Gemini Copilot
+# PyTalk – Your own custom Ai Agent
 
 Glow-infused AI assistant for coding & conversation.  
 Chats, speaks, listens, and paints with Google Gemini — all inside a sleek PySide6 desktop app.
