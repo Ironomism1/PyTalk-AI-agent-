@@ -25,7 +25,7 @@ Chats, speaks, listens, and paints with Google Gemini — all inside a sleek PyS
 | Component | Details |
 |-----------|---------|
 | Python    | 3.10 – 3.12 (Conda 3.11 recommended) |
-| API Key   | Google Generative AI (`GOOGLE_API_KEY`) |
+| API Key   | Google Generative AI (`YOUR_AI_API_KEY`) |
 | Audio     | `PyAudio` (Windows) or `sounddevice` (macOS/Linux) |
 | Extras    | Microphone for STT, speakers for TTS (optional) |
 
@@ -50,11 +50,11 @@ python -m app.main
 python -m venv .venv
 .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-$env:GOOGLE_API_KEY="YOUR_API_KEY"
+$env:API_KEY="YOUR_API_KEY"
 python -m app.main
 ```
 
-> Tip: add `setx GOOGLE_API_KEY "YOUR_API_KEY"` to persist the key across shell sessions (open a new shell afterwards).
+> Tip: add `setx Your_API_KEY "YOUR_API_KEY"` to persist the key across shell sessions (open a new shell afterwards).
 
 ---
 
@@ -143,7 +143,7 @@ Then add a summary screenshot and fill out the GitHub repository description wit
 
 ## ❤️ Credits
 
-Crafted with PySide6, Pygments, SpeechRecognition, pyttsx3, Pillow, and the official [Google Generative AI SDK](https://ai.google.dev/gemini-api/docs).  
+Crafted with PySide6, Pygments, SpeechRecognition, pyttsx3, Pillow,.  
 Inspired by sci-fi interfaces and powered by the Gemini family.
 
 Enjoy building with PyTalk! 🚀
